@@ -145,7 +145,7 @@ nav a:hover {
   margin: 0 auto;
   max-width: 960px;
   display: grid;
-  grid-template-columns: repeat(4, 0.9fr);
+  grid-template-columns: 0.9fr 0.9fr 0.98fr 0.82fr;
   grid-gap: 10px;
 }
 
