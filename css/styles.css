@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: rgba(28, 26, 26,.75);
+  background-color: #EFECEC;
+}
+
+
+header{
+   padding: 10px 0 10px 0;
+   margin: 0px;
+   width: 100%;
+ }
+
+/*is this necessary?*/
+main, section{
+	width: 100%;
+	margin: 0 auto;
+ }
+
+.container{
+  width: 80%;
+  max-width: 1000px;
+  margin:0 auto;  
+  text-align: center;
+ }
+ 
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    line-height: 0em;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}    
+
+h3 {
+  font-family: 'Allura', cursive;
+  color: #7A1600;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 12px;
+}
+
+.description {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+p a {
+  text-decoration: none;
+  color: #7A1600;
+}
+  
+p a:hover {
+  background: #7A1600;
+  color: #EFECEC;
+}
+
+
+/*Navigation Menu*/
+
+nav {
+  text-align: center;
+  margin: 0px auto 0px auto;  
+}
+
+nav ul.menu {
+  display: block;
+  max-width: 1000px;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+
+nav ul.menu li {
+  display: inline;
+}
+
+nav ul.menu li img {
+    vertical-align: middle; 
+    width: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1em;
+  display: inline-block;
+  width: 16%;
+  text-align: center;
+  padding: 10px 20px;
+}
+  
+nav a:hover {
+  color: #7A1600;
+  text-decoration: overline;
+}
+
+
+/*banner*/
+.banner {
+   background-image:url("../images/banner.jpg");
+   background-size: cover;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#button > a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: #7A1600;
+    border-radius: 0.3em;
+}
+
+#button > a:hover {
+  background: #7A1600;
+  color: #EFECEC;
+}
+
+
+/* Products */
+
+
+#products {
+    background-color: #e3dcd2;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(4, 0.9fr);
+  grid-gap: 10px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.double {
+    grid-column: span 2;
+}
+
+.card img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+figcaption {
+  padding: 10px;
+  font-size: .9rem;
+  color: #757575;
+}
+
+
+figure {
+	margin: 0;
+	overflow: hidden;
+}
+
+
+/* Products 
+
+https://codepen.io/GeorgePark/pen/vdqYom
+
+https://codepen.io/zinctar/pen/wapwyK
+
+https://codepen.io/perpetualgrimace/pen/ybgWXM
+
+
+*/
+
+/* Team */
+
+.team_section {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.profile {
+    padding: 30px;
+}
+
+.profile_pic img {
+   width : 80%;
+   border-radius: 50%; 
+}
+
+
+
+/* pie de pagina*/
+footer {
+  width: 100%;
+  height: 6em;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.footer_left {
+  float: left;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #000;
+}
+
+.footer_right {
+  float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.social {
+    text-align: right;
+}
+.social-url {
+   text-decoration: none;
+    color: #7A1600;   
+    font-size: 1.5em;
+   padding: 0 10px;
+}
+
