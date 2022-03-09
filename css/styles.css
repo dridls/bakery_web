@@ -165,18 +165,10 @@ nav a:hover {
 
 }
 
-figcaption {
-  padding: 10px;
-  font-size: .9rem;
-  color: #757575;
+.card p {
+  padding: 20px 10px;
+  vertical-align: middle;
 }
-
-
-figure {
-	margin: 0;
-	overflow: hidden;
-}
-
 
 /* Products 
 
